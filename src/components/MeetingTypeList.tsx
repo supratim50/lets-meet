@@ -176,7 +176,7 @@ const MeetingTypeList = () => {
             title="Type the link here"
             className="text-center"
             buttonText="Join Meeting"
-            handleClick={() => router.push(`http://${values.link}`)}
+            handleClick={() => router.push(`${values.link}`)}
         >
             <Input 
                 placeholder="Meeting link" 
